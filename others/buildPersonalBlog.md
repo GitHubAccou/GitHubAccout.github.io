@@ -39,5 +39,53 @@ docsify 是nodejs 提供的一个组件。它可以将markdown语法的文件渲
 #### 3. 在github上创建博客仓库
 > ##### 1. 创建一个空的仓库
 >> 省略
-> ##### 1. 仓库配置Github Pages
+> ##### 2. 仓库配置Github Pages
+>> 打开上一步创建的空仓库(图中我的仓库名叫blog)，点击红色标注的部分
+>> ![](pics/setting.png)
+>> 打开之后，找到GitHub Pages部分，如图
+>> ![](pics/page_section.png)
+>> 选择要使用的分支(主分支就可以),看到下面图中红色标注的部分说明博客网站已经建立完成
+>> ![](pics/deploy_succ.png)
+>> 使用红色标注给出的连接即可访问自己的博客，比如我的博客连接是:[https://githubaccou/github.io](https://githubaccou/github.io)
+#### 4. 搭建博客基本框架
+> 1. 将博客仓库从github拉取到本地
+> 2. 编辑index.html如下：
+>> ```html
+>> <!DOCTYPE html>
+>> <html lang="en">
+>> <head>
+>>   <meta charset="UTF-8">
+>>   <title>Easter's Blog</title>
+>>   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+>>   <meta name="description" content="Description">
+>>   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+>>   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+>> </head>
+>> <body>
+>>   <div id="app"></div>
+>>   <script>
+>>     window.$docsify = {
+>> 		loadSidebar:'sidebar.md',//侧边栏使用的markdown文件
+>> 		autoHeader:true,
+>> 		name:"Easter's Blog"//侧边栏上边显示的名称
+>>     }
+>>   </script>
+>>   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+>> </body>
+>> </html>```
+> 2. 添加sidebar.md
+>> sidebar.md内容主要是链接形式的标题，用来链接每一片博客，也就是每一个.md文件。sidebar.md中添加如下内容：
+>> ```markdown
+>>[搭建个人博客](others/buildPersonalBlog)
+>> ```
+>> 上边表示这个点击这个链接，右边内容栏会显示others文件加下的buildPersonalBlog.md文件中的内容
+> 3. 编辑others文件夹下的buildPersonalBolg.md文件，内容如下：
+>> ```
+>> 这是我在github的第一篇博文，用于测试
+>> 测试一个链接： [百度](https://www.baidu.com)
+>> 测试一个图片： [戚薇](https://ss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/skin_zoom/460.jpg?2)
+>> ```
+> 4. git提交修改，并push到github。
+> 5. 访问自己的博客地址，测试效果
+#### 5. 到此所有内容已经结束，以后要做的是深入学习docsify的用法和添加自己的博客即可。
 
