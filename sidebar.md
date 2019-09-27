@@ -2,3 +2,4 @@
 2. [GO](go)
 3. [Linux](linux)
 4. [杂项](others)
+    1. [搭建个人博客](others/buildPersonalBlog)
