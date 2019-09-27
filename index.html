@@ -14,9 +14,16 @@
     window.$docsify = {
 		loadSidebar:'sidebar.md',
 		autoHeader:true,
-		name:"Easter's Blog"
+		name:"Easter's Blog",
+		search:{
+			maxAge:86400000, // 过期时间，单位毫秒，默认一天
+			placeholder:'文章搜索',
+			noData:'没搜到',
+			depth:6,
+		}
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
 </body>
 </html>
