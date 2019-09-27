@@ -83,7 +83,7 @@ docsify 是nodejs 提供的一个组件。它可以将markdown语法的文件渲
 >> ```
 >> 这是我在github的第一篇博文，用于测试
 >> 测试一个链接： [百度](https://www.baidu.com)
->> 测试一个图片： [戚薇](https://ss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/skin_zoom/460.jpg?2)
+>> 测试一个图片： ![戚薇](https://ss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/skin_zoom/460.jpg?2)
 >> ```
 > 4. git提交修改，并push到github。
 > 5. 访问自己的博客地址，测试效果
