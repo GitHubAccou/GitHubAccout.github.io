@@ -1,2 +1,2 @@
-# GitHubAccout.github.io
-personal blog site repository
+# easter's blog
+this is a personal blog sit
