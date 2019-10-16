@@ -14,7 +14,6 @@
 
 ### 在线工具
 + [16进制在线工具](https://hexed.it/)
-+ [Ext.Component - Ext JS - Sencha Docs](file:///C:/Users/Administrator/Downloads/5.1.0-apidocs/index.html#!/api/Ext.Component-cfg-data)
 + [在线翻译_有道](http://fanyi.youdao.com/)
 + [在线Javascript格式化、在线格式化Javascript代码、Javascript代码美化、Javascript代码美化工具--查错网](http://web.chacuo.net/formatjs)
 + [linux在线模拟器](http://cb.vu/)
@@ -55,7 +54,6 @@
 + [jqGrid demos-jqGrid实例-中文-mn886.net](http://blog.mn886.net/jqGrid/)
 + [图标下载，ICON(PNG/ICO/ICNS)图标搜索下载 | EASYICON.NET](http://www.easyicon.net/)
 + [virtualview-1.3.5 开源项目明细/下载 - MvnJar](http://www.mvnjar.com/com.alibaba.android/virtualview/1.3.5/detail.html)
-+ [walk - GoDoc](https://godoc.org/github.com/lxn/walk)
 + [JAVA | 并发编程网 – ifeve.com](http://ifeve.com/category/java/)
 + [Home :: GoCV - Golang Computer Vision Using OpenCV 4](https://gocv.io/)
 + [Java 技术驿站-一个专注于 Java 技术分享的精品博客网站](http://cmsblogs.com/)
