@@ -3,3 +3,4 @@
 3. [Linux](linux)
 4. [杂项](others)
     1. [搭建个人博客](others/buildPersonalBlog)
+    2. [收藏列表](others/favoAddrs)
