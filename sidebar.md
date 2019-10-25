@@ -8,3 +8,4 @@
     1. [搭建个人博客](others/buildPersonalBlog)
     2. [收藏列表](others/favoAddrs)
     3. [创建SVN分支](others/SVNCreateBranch)
+    4. [搭建git服务器](others/gitServerSetup)
