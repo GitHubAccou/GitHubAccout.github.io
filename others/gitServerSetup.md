@@ -46,32 +46,32 @@ git仓库的使用分为研发和交付:研发可以检出和更改git仓库项�
 > ```
 ### 5. 根据不同情况做不同处理
 
-#### 1. user1之前在本地已经开发了一部分(假设本地路径为D:/test,且目录中有一个已经开发的文件code1.java)。
->user1执行如下一系列操作：
->```cmd
->   cd /d D:/test #进入本地项目目录
->   git init #将项目test初始化为git项目
->   git add code1.java #添加code1.java
->   git commit -m "提交code1文件"#git提交
->   git remote add user1@192.168.1.6:/home/test #添加仓库
->   git push 推送项目代码到仓库
->```
-> user2执行如下操作：
->```cmd
->   cd /d E:/test #user2本地项目录
->   git clone user2@192.168.1.6:/home/test #检出项目
->```
->之后就是后续的user1，user2正常的提交、检出流程
-
-#### 2. 新建的项目还没开始开发
->user1执行如下操作：
->```cmd
->   cd /d D:/test #user1本地项目录
->   git clone user1@192.168.1.6:/home/test #检出项目
->```
->user2执行如下操作：
->```cmd
->   cd /d E:/test #user2本地项目录
->   git clone user2@192.168.1.6:/home/test #检出项目
->```
->之后就是后续的user1，user2正常的提交、检出流程
+>#### 1. user1之前在本地已经开发了一部分(假设本地路径为D:/test,且目录中有一个已经开发的文件code1.java)。
+>>user1执行如下一系列操作：
+>>```cmd
+>>   cd /d D:/test #进入本地项目目录
+>>   git init #将项目test初始化为git项目
+>>   git add code1.java #添加code1.java
+>>   git commit -m "提交code1文件"#git提交
+>>   git remote add user1@192.168.1.6:/home/test #添加仓库
+>>   git push 推送项目代码到仓库
+>>```
+>> user2执行如下操作：
+>>```cmd
+>>   cd /d E:/test #user2本地项目录
+>>   git clone user2@192.168.1.6:/home/test #检出项目
+>>```
+>>之后就是后续的user1，user2正常的提交、检出流程
+>
+>#### 2. 新建的项目还没开始开发
+>>user1执行如下操作：
+>>```cmd
+>>   cd /d D:/test #user1本地项目录
+>>   git clone user1@192.168.1.6:/home/test #检出项目
+>>```
+>>user2执行如下操作：
+>>```cmd
+>>   cd /d E:/test #user2本地项目录
+>>   git clone user2@192.168.1.6:/home/test #检出项目
+>>```
+>>之后就是后续的user1，user2正常的提交、检出流程
