@@ -9,3 +9,4 @@
     2. [收藏列表](others/favoAddrs)
     3. [创建SVN分支](others/SVNCreateBranch)
     4. [搭建git服务器](others/gitServerSetup)
+    5. [videojs chrome下进度条无法拖拽](others/videojs)
