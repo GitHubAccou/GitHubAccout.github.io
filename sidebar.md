@@ -12,3 +12,4 @@
     3. [创建SVN分支](others/SVNCreateBranch)
     4. [搭建git服务器](others/gitServerSetup)
     5. [videojs chrome下进度条无法拖拽](others/videojs)
+    6. [GUI 开发](others/GUI)
